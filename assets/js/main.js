@@ -1,3 +1,8 @@
+AOS.init({
+  duration: 1500,
+  disable: 'mobile'
+});
+
 // SVG file to SVG code convert JS Start
 function img2svg() {
   jQuery(".in-svg").each(function (i, e) {
