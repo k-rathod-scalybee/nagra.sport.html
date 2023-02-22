@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 663 1102" width="663" height="1102">
+	<title>services-bg-svg</title>
+	<defs>
+		<radialGradient id="g1" cx="112.3" cy="550.5" r="551.3" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#009fdf"/>
+			<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+		</radialGradient>
+	</defs>
+	<style>
+		.s0 { opacity: .2;fill: url(#g1) } 
+	</style>
+	<path id="Layer" class="s0" d="m678-2162v4035h-678v-4035z"/>
+</svg>

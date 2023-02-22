@@ -84,3 +84,18 @@ function parallaxScroll() {
   }
 }
 // Scroll Effect JS
+
+// Number Counter
+jQuery('.counter').each(function () {
+  jQuery(this).prop('Counter',0).animate({
+      Counter: jQuery(this).text()
+  }, {
+    duration: 6000,
+    easing: 'swing',
+    step: function (now) {
+        now = Number(Math.ceil(now)).toLocaleString('en');
+        jQuery(this).text(now);
+    }
+  });
+});
+// Number Counter
