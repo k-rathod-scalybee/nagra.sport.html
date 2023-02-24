@@ -1685,7 +1685,7 @@ path[style="mix-blend-mode:multiply"], path[style="mix-blend-mode:screen"] {
   /* CTA Section CSS */
 
   /* Services Section CSS */
-  .ns-services::before, .ns-stats::before, .ns-all-events:before { display: none; }
+  .ns-services::before, .ns-stats::before, .ns-all-events:before, .ns-all-events:after { display: none; }
     /* Hexa Position CSS */
     .ns-services__col:nth-child(1) .ns-service__item:nth-child(1) .ns-service__icon,
     .ns-services__col:nth-child(1) .ns-service__item:nth-child(4) .ns-service__icon {
@@ -1932,6 +1932,10 @@ path[style="mix-blend-mode:multiply"], path[style="mix-blend-mode:screen"] {
     margin-top: 1rem;
   }
   .ns-features__all-in .left, .ns-features__all-in .right { display: none; }
+  .ns-features__list {
+    margin: 2.5rem -0.625rem 3rem;
+    order: 1;
+  }
   .ns-feature__item {
     max-width: calc(100% / 4 - 1.25rem);
     flex: 0 0 calc(100% / 4 - 1.25rem);
